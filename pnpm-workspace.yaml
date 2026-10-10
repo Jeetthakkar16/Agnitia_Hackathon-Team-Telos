@@ -1,0 +1,8 @@
+packages:
+  - '.'
+
+# pnpm 11: explicitly authorize only the dependencies that need native build scripts.
+# `onlyBuiltDependencies` was removed in pnpm 11; do not use it.
+allowBuilds:
+  esbuild: true
+  sharp: true

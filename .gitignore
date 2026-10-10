@@ -1,0 +1,14 @@
+node_modules
+.next
+.env*
+!.env.example
+android/.gradle
+ios/App/Pods
+.DS_Store
+*.tsbuildinfo
+.vercel
+coverage
+*.log
+
+# Generated after successful Windows first install
+.terra07-deps-ready

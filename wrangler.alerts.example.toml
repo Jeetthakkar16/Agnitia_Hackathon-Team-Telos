@@ -1,0 +1,11 @@
+name = "terra07-alert-engine"
+main = "workers/alert-cron.ts"
+compatibility_date = "2026-10-01"
+
+[triggers]
+crons = ["*/10 * * * *"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "terra07"
+database_id = "REPLACE_ME"
